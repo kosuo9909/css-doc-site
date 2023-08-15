@@ -13,7 +13,9 @@ const LeftSideBar = ({ mockNavBar }) => {
             <ul>
               {links.map((link, linkIndex) => (
                 <li key={linkIndex}>
-                  <a href="/">{link}</a>
+                  <a href="/" className=" no-text-decoration">
+                    {link}
+                  </a>
                 </li>
               ))}
             </ul>

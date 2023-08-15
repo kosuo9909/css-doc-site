@@ -10,12 +10,39 @@ li {
 
 a {
   color: inherit;
+  
+}
+
+.no-text-decoration {
+  text-decoration: none;
+
 }
 
 .bold-red {
-  color: red;
+  color: rgb(185, 6, 6);
+
   font-weight: bold;
+  font-size: 15px;
 }
 .red {
-  color: red;
+  color: rgb(185, 6, 6);
+
+}
+
+.grey-background {
+  background-color: grey;
+}
+
+.white {
+  color: white;
+  font-size: 14px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.border {
+  border: 2px solid lightgrey;
+
 }

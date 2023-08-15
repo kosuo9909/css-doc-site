@@ -1,3 +1,21 @@
 .main-content{
     width: 60%;
+    background-color: #fff;
+    border: 2px solid lightgrey;
+    
+}
+
+img {
+    width: 80px;
+}
+
+.tutorial-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.paragraphs-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }

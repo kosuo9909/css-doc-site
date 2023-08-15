@@ -1,0 +1,47 @@
+.right-aside {
+    width: 20%;
+    background-color: #fff;
+    border: 2px solid lightgrey;
+}
+
+.search-bar{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.li-centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+.section-button-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.blue-button {
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(to bottom, #92bbe7, #c2e0ff); 
+    border: 1px solid #1A66B2; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    color: white; 
+    font-weight: bold;
+    transition: 0.3s; 
+}
+
+.blue-button:hover{
+    cursor: pointer;
+    background: linear-gradient(to bottom, #b2d2f5, #cce1f5); 
+
+}
