@@ -1,4 +1,4 @@
-import './LeftNavBar.css';
+import './LeftNavBar.scss';
 
 const LeftSideBar = ({ mockNavBar }) => {
   return (

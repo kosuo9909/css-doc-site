@@ -1,3 +1,13 @@
+@use '../sassStyles/variables' as *;
+@use '../sassStyles/mixins' as *;
 .left-navbar {
     width: 20%;
+
+    a {
+        text-decoration: none;
+    }
+
+    h6 {
+        @include bold-red;
+    }
 }

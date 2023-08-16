@@ -1,4 +1,4 @@
-import './RightAside.css';
+import './RightAside.scss';
 const RightAside = () => {
   return (
     <aside className="right-aside">
