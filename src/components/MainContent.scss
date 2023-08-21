@@ -2,7 +2,9 @@
 @use '../sassStyles/mixins' as *;
 
 .main-content {
-    width: 60%;
+    min-width: 600px;
+    max-width: 1200px;
+    width: 100%;
     background-color: #fff;
     @include border-2px-ltgrey;
 
@@ -12,11 +14,10 @@
     }
 
     a {
-        color: $custom-red;
+        color: $warning-text;
     }
 
     .tutorial-wrapper {
-        display: grid;
         grid-template-columns: 1fr 2fr;
 
         img {

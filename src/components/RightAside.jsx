@@ -25,7 +25,7 @@ const RightAside = () => {
           </ul>
         </nav>
         <section className="section-button-wrap border">
-          <button type="submit" className="blue-button">
+          <button type="submit" className="action-button">
             25+ Styles!
           </button>
           <li>

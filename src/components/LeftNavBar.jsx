@@ -9,7 +9,7 @@ const LeftSideBar = ({ mockNavBar }) => {
 
         return (
           <div key={index}>
-            <h6 className="bold-red">{categoryName}</h6>
+            <h6 className="bold font-size-15px">{categoryName}</h6>
             <ul>
               {links.map((link, linkIndex) => (
                 <li key={linkIndex}>

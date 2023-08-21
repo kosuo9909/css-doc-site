@@ -1,0 +1,75 @@
+@use './sassStyles/mixins' as *;
+@use './sassStyles/variables' as *;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  
+}
+
+.action-button {
+  width: 140px;
+  height: 40px;
+  background: $action-button;
+  border: 1px solid #1A66B2; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+  text-align: center; 
+  color: white; 
+  font-weight: bold;
+  transition: 0.3s; 
+
+  &:hover {
+      cursor: pointer;
+  background: linear-gradient(to bottom, #b2d2f5, #cce1f5); 
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.font-size-15px {
+  font-size: 15px;
+}
+/* 
+.no-text-decoration {
+  text-decoration: none;
+
+}
+
+.bold-red {
+  color: rgb(185, 6, 6);
+
+  font-weight: bold;
+  font-size: 15px;
+}
+.red {
+  color: rgb(185, 6, 6);
+
+}
+
+.grey-background {
+  background-color: grey;
+}
+
+.white {
+  color: white;
+  font-size: 14px;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.border {
+  border: 2px solid lightgrey;
+
+} */
