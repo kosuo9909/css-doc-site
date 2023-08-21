@@ -1,0 +1,86 @@
+@use '../sassStyles/variables' as *;
+@use '../sassStyles/mixins' as *;
+
+.right-aside {
+    width: 20%;
+    background-color: $white-background;
+    @include border-2px-ltgrey;
+
+    .section-button-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .blue-button {
+            @include blue-button;
+        }
+
+        li {
+            border: none;
+
+            a {
+                color: $custom-red;
+            }
+        }
+    }
+
+    section {
+        @include border-2px-ltgrey;
+
+        h6 {
+            @include h6-white-centered;
+        }
+
+        .search-bar {
+            @include border-2px-ltgrey;
+            display: flex;
+            padding: 10px;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        nav {
+            ul {
+                li {
+
+                    @include li-centered-bordered;
+
+                    a {
+                        color: $custom-red;
+                    }
+                }
+            }
+        }
+
+        section {
+            @include border-2px-ltgrey;
+
+            li {
+                @include li-centered-bordered;
+
+                a {
+                    color: $custom-red;
+                }
+            }
+        }
+    }
+
+    .ads {
+
+        h6 {
+            @include h6-white-centered;
+        }
+
+        ul {
+
+            li {
+                @include li-centered-bordered;
+
+                a {
+                    color: $custom-red;
+                }
+            }
+        }
+    }
+}

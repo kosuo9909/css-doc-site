@@ -1,0 +1,60 @@
+@use '../sassStyles/variables' as *;
+@mixin white-14px {
+    color: white;
+    font-size: 14px;
+}
+
+@mixin centered-text{
+
+    text-align: center;
+    
+} 
+
+@mixin border-2px-ltgrey {
+    border: 2px solid lightgrey;
+
+}
+
+@mixin li-centered-bordered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    @include border-2px-ltgrey()
+
+}
+
+@mixin h6-white-centered {
+    background-color: $main-background;
+    text-align: center;
+    @include white-14px();
+    @include border-2px-ltgrey()
+}
+
+@mixin border-1px-blue {
+    border: 1px solid #1A66B2; 
+}
+
+@mixin bold-red {
+    color: rgb(185, 6, 6);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+@mixin blue-button {
+    width: 140px;
+    height: 40px;
+    background: $action-button;
+    border: 1px solid #1A66B2; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    color: white; 
+    font-weight: bold;
+    transition: 0.3s; 
+
+    &:hover {
+        cursor: pointer;
+    background: linear-gradient(to bottom, #b2d2f5, #cce1f5); 
+    }
+}

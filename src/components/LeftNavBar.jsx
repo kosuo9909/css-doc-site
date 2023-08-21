@@ -1,19 +1,28 @@
-import './LeftNavBar.css';
+import './LeftNavBar.scss';
+
 const LeftSideBar = ({ mockNavBar }) => {
-  console.log(mockNavBar[0]);
   return (
-    <>
-      {Object.keys(mockNavBar).map((key) => (
-        <nav key={key} className="left-navbar">
-          <h6 className="bold-red">{Object.keys(mockNavBar[key])}</h6>
-          <ul>
-            <li>
-              <a href="/">{Object.values(mockNavBar[key])}</a>
-            </li>
-          </ul>
-        </nav>
-      ))}
-    </>
+    <nav className="left-navbar">
+      {mockNavBar.map((categoryObject, index) => {
+        const categoryName = Object.keys(categoryObject)[0];
+        const links = categoryObject[categoryName];
+
+        return (
+          <div key={index}>
+            <h6 className="bold-red">{categoryName}</h6>
+            <ul>
+              {links.map((link, linkIndex) => (
+                <li key={linkIndex}>
+                  <a href="/" className=" no-text-decoration">
+                    {link}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      })}
+    </nav>
   );
 };
 

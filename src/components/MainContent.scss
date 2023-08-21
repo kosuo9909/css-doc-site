@@ -1,0 +1,34 @@
+@use '../sassStyles/variables' as *;
+@use '../sassStyles/mixins' as *;
+
+.main-content {
+    width: 60%;
+    background-color: #fff;
+    @include border-2px-ltgrey;
+
+    h6 {
+        @include h6-white-centered;
+        text-align: start;
+    }
+
+    a {
+        color: $custom-red;
+    }
+
+    .tutorial-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+
+        img {
+            width: 80px;
+        }
+
+        .paragraphs-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+    }
+
+}
