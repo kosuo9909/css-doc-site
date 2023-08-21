@@ -1,8 +1,4 @@
 @use '../sassStyles/variables' as *;
-@mixin white-14px {
-    color: white;
-    font-size: 14px;
-}
 
 @mixin centered-text{
 
@@ -10,7 +6,7 @@
     
 } 
 
-@mixin border-2px-ltgrey {
+@mixin border-2px-light-grey {
     border: 2px solid lightgrey;
 
 }
@@ -21,15 +17,16 @@
     justify-content: center;
     text-align: center;
     padding: 5px;
-    @include border-2px-ltgrey()
+    @include border-2px-light-grey()
 
 }
 
 @mixin h6-white-centered {
     background-color: $main-background;
     text-align: center;
-    @include white-14px();
-    @include border-2px-ltgrey()
+    color: white;
+    font-size: 14px;
+    @include border-2px-light-grey()
 }
 
 @mixin border-1px-blue {

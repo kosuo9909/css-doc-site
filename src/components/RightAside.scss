@@ -3,7 +3,7 @@
 
 .right-aside {
     background-color: $white-background;
-    @include border-2px-ltgrey;
+    @include border-2px-light-grey;
 
     .section-button-wrap {
         display: flex;
@@ -21,14 +21,14 @@
     }
 
     section {
-        @include border-2px-ltgrey;
+        @include border-2px-light-grey;
 
         h6 {
             @include h6-white-centered;
         }
 
         .search-bar {
-            @include border-2px-ltgrey;
+            @include border-2px-light-grey;
             display: flex;
             padding: 10px;
             gap: 10px;
@@ -45,7 +45,7 @@
         }
 
         section {
-            @include border-2px-ltgrey;
+            @include border-2px-light-grey;
 
             li {
                 @include li-centered-bordered;

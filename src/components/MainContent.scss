@@ -6,7 +6,7 @@
     max-width: 1200px;
     width: 100%;
     background-color: #fff;
-    @include border-2px-ltgrey;
+    @include border-2px-light-grey;
 
     h6 {
         @include h6-white-centered;
@@ -18,7 +18,7 @@
     }
 
     .tutorial-wrapper {
-        grid-template-columns: 1fr 2fr;
+        display: flex;
 
         img {
             width: 80px;
