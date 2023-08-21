@@ -21,14 +21,6 @@
 
 }
 
-@mixin h6-white-centered {
-    background-color: $main-background;
-    text-align: center;
-    color: white;
-    font-size: 14px;
-    @include border-2px-light-grey()
-}
-
 @mixin border-1px-blue {
     border: 1px solid #1A66B2; 
 }

@@ -24,7 +24,12 @@
         @include border-2px-light-grey;
 
         h6 {
-            @include h6-white-centered;
+            background-color: $main-background;
+            color: white;
+            font-size: 14px;
+            text-align: center;
+
+
         }
 
         .search-bar {
@@ -60,7 +65,10 @@
     .ads {
 
         h6 {
-            @include h6-white-centered;
+            background-color: $main-background;
+            color: white;
+            font-size: 14px;
+            text-align: center;
         }
 
         ul {
